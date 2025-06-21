@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FirstPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\lucas\OneDrive\Documents\Unreal Projects\UE5FirstPlugin\FirstPlugin\Intermediate\Build\Win64\x64\FirstPluginEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\lucas\OneDrive\Documents\Unreal Projects\UE5FirstPlugin\FirstPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPlugin\FirstPlugin.cpp.obj"
+"C:\Users\lucas\OneDrive\Documents\Unreal Projects\UE5FirstPlugin\FirstPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPlugin\PerModuleInline.gen.cpp.obj"
+"C:\Users\lucas\OneDrive\Documents\Unreal Projects\UE5FirstPlugin\FirstPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPlugin\Default.rc2.res"
+/OUT:"C:\Users\lucas\OneDrive\Documents\Unreal Projects\UE5FirstPlugin\FirstPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPlugin\UnrealEditor-FirstPlugin.lib"

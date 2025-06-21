@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FirstPlugin",
+			"Path": "..\\Source\\FirstPlugin.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FirstPluginEditor",
+			"Path": "..\\Source\\FirstPluginEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

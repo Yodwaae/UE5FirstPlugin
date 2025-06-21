@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FirstPlugin.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPlugin.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstPluginEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FirstPluginUE5">
+      <UniqueIdentifier>{06B2158A-1919-3C8B-8DC9-D63FC2C94458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FirstPluginUE5\Source">
+      <UniqueIdentifier>{6DECEA7C-9757-33D8-A415-BDE8D65B6E0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\FirstPluginUE5\Source\FirstPluginUE5">
+      <UniqueIdentifier>{F80B6758-185F-3319-BDF6-9EF798D138B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\FirstPluginUE5.Build.cs">
+      <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5</Filter>
+    </None>
+    <Filter Include="Plugins\FirstPluginUE5\Source\FirstPluginUE5\Private">
+      <UniqueIdentifier>{F3EB5ABB-6221-3C49-97E4-422E28C590E5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Private\FirstPluginUE5.cpp">
+      <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Private\FirstPluginUE5BPLibrary.cpp">
+      <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public">
+      <UniqueIdentifier>{7A7798D9-B4A5-3CB1-B72C-E8E50B58099D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5.h">
+      <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5BPLibrary.h">
+      <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\FirstPluginUE5\FirstPluginUE5.uplugin">
+      <Filter>Plugins\FirstPluginUE5</Filter>
+    </None>
+    <Filter Include="Plugins\FirstPluginUE5\Resources">
+      <UniqueIdentifier>{F6808C78-57F4-3B7F-A560-5297D6E2803C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FirstPluginUE5\Resources\Icon128.png">
+      <Filter>Plugins\FirstPluginUE5\Resources</Filter>
+    </None>
+    <Filter Include="Source\FirstPlugin">
+      <UniqueIdentifier>{DABA0E67-9537-3F61-898E-457F8E161F2E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstPlugin\FirstPlugin.Build.cs">
+      <Filter>Source\FirstPlugin</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstPlugin\FirstPlugin.cpp">
+      <Filter>Source\FirstPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPlugin\FirstPlugin.h">
+      <Filter>Source\FirstPlugin</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

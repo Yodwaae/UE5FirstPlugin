@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\UE5FirstPlugin\\FirstPlugin\\Source\\FirstPlugin\\FirstPlugin.Build.cs",
+		"C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\UE5FirstPlugin\\FirstPlugin\\Plugins\\FirstPluginUE5\\Source\\FirstPluginUE5\\FirstPluginUE5.Build.cs",
+		"C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\UE5FirstPlugin\\FirstPlugin\\Source\\FirstPlugin.Target.cs",
+		"C:\\Users\\lucas\\OneDrive\\Documents\\Unreal Projects\\UE5FirstPlugin\\FirstPlugin\\Source\\FirstPluginEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

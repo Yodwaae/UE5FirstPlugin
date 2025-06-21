@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lucas\\onedrive\\documents\\unreal projects\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpluginue5\\uht\\firstpluginue5.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lucas\\onedrive\\documents\\unreal projects\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\x64\\firstplugineditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\lucas\\onedrive\\documents\\unreal projects\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstpluginue5\\definitions.firstpluginue5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
