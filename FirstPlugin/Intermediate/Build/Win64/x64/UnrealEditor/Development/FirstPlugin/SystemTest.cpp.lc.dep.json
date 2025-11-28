@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\source\\firstplugin\\private\\systemtest.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\x64\\firstplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_5.h.pch",
+        "Includes": [
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstplugin\\definitions.firstplugin.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\source\\firstplugin\\public\\systemtest.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\firstplugin\\uht\\systemtest.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

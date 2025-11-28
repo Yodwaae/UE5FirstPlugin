@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstpluginue5\\module.firstpluginue5.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\x64\\firstplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_5.h.pch",
+        "Includes": [
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstpluginue5\\definitions.firstpluginue5.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpluginue5\\uht\\firstpluginue5.init.gen.cpp",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpluginue5\\uht\\firstpluginue5bplibrary.gen.cpp",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\source\\firstpluginue5\\public\\firstpluginue5bplibrary.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpluginue5\\uht\\firstpluginue5bplibrary.generated.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstpluginue5\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\source\\firstpluginue5\\private\\firstpluginue5.cpp",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\source\\firstpluginue5\\public\\firstpluginue5.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\plugins\\firstpluginue5\\source\\firstpluginue5\\private\\firstpluginue5bplibrary.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

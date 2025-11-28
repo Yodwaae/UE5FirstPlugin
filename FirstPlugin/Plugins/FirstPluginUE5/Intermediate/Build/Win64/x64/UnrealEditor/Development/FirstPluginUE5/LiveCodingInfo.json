@@ -1,5 +1,12 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.FirstPluginUE5.cpp.obj": [
+			"FirstPluginUE5.init.gen.cpp.obj",
+			"FirstPluginUE5BPLibrary.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"FirstPluginUE5.cpp.obj",
+			"FirstPluginUE5BPLibrary.cpp.obj"
+		]
 	}
 }

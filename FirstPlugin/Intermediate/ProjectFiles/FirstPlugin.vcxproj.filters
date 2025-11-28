@@ -54,12 +54,12 @@
     <Filter Include="Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public">
       <UniqueIdentifier>{7A7798D9-B4A5-3CB1-B72C-E8E50B58099D}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5.h">
+    <ClInclude Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5.h">
       <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5BPLibrary.h">
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5BPLibrary.h">
       <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public</Filter>
-    </ClCompile>
+    </ClInclude>
     <None Include="..\..\Plugins\FirstPluginUE5\FirstPluginUE5.uplugin">
       <Filter>Plugins\FirstPluginUE5</Filter>
     </None>
@@ -78,8 +78,20 @@
     <ClCompile Include="..\..\Source\FirstPlugin\FirstPlugin.cpp">
       <Filter>Source\FirstPlugin</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPlugin\FirstPlugin.h">
+    <ClInclude Include="..\..\Source\FirstPlugin\FirstPlugin.h">
       <Filter>Source\FirstPlugin</Filter>
+    </ClInclude>
+    <Filter Include="Source\FirstPlugin\Private">
+      <UniqueIdentifier>{5378D0B6-0F3D-305B-9AA5-DDDD8AA85D58}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FirstPlugin\Private\SystemTest.cpp">
+      <Filter>Source\FirstPlugin\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\FirstPlugin\Public">
+      <UniqueIdentifier>{7A99CB2D-E095-3637-8F36-F9BD6F38E0E4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FirstPlugin\Public\SystemTest.h">
+      <Filter>Source\FirstPlugin\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

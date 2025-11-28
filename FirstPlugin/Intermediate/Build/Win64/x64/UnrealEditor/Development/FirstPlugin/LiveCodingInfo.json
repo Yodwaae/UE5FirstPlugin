@@ -1,5 +1,9 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.FirstPlugin.gen.cpp.obj": [
+			"FirstPlugin.init.gen.cpp.obj",
+			"SystemTest.gen.cpp.obj"
+		]
 	}
 }

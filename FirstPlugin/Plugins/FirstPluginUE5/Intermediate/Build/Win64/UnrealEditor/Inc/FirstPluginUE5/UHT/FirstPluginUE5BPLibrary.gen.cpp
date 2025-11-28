@@ -5,18 +5,20 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "FirstPluginUE5/Public/FirstPluginUE5BPLibrary.h"
+#include "FirstPluginUE5BPLibrary.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeFirstPluginUE5BPLibrary() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 FIRSTPLUGINUE5_API UClass* Z_Construct_UClass_UFirstPluginUE5BPLibrary();
 FIRSTPLUGINUE5_API UClass* Z_Construct_UClass_UFirstPluginUE5BPLibrary_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPluginUE5();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class UFirstPluginUE5BPLibrary Function FirstPluginUE5SampleFunction
+// ********** Begin Class UFirstPluginUE5BPLibrary Function FirstPluginUE5SampleFunction ***********
 struct Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics
 {
 	struct FirstPluginUE5BPLibrary_eventFirstPluginUE5SampleFunction_Parms
@@ -44,7 +46,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFirst
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFirstPluginUE5BPLibrary, nullptr, "FirstPluginUE5SampleFunction", nullptr, nullptr, Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::FirstPluginUE5BPLibrary_eventFirstPluginUE5SampleFunction_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFirstPluginUE5BPLibrary, nullptr, "FirstPluginUE5SampleFunction", Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::FirstPluginUE5BPLibrary_eventFirstPluginUE5SampleFunction_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction_Statics::FirstPluginUE5BPLibrary_eventFirstPluginUE5SampleFunction_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction()
 {
@@ -63,9 +65,9 @@ DEFINE_FUNCTION(UFirstPluginUE5BPLibrary::execFirstPluginUE5SampleFunction)
 	*(float*)Z_Param__Result=UFirstPluginUE5BPLibrary::FirstPluginUE5SampleFunction(Z_Param_Param);
 	P_NATIVE_END;
 }
-// End Class UFirstPluginUE5BPLibrary Function FirstPluginUE5SampleFunction
+// ********** End Class UFirstPluginUE5BPLibrary Function FirstPluginUE5SampleFunction *************
 
-// Begin Class UFirstPluginUE5BPLibrary
+// ********** Begin Class UFirstPluginUE5BPLibrary *************************************************
 void UFirstPluginUE5BPLibrary::StaticRegisterNativesUFirstPluginUE5BPLibrary()
 {
 	UClass* Class = UFirstPluginUE5BPLibrary::StaticClass();
@@ -74,10 +76,34 @@ void UFirstPluginUE5BPLibrary::StaticRegisterNativesUFirstPluginUE5BPLibrary()
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UFirstPluginUE5BPLibrary);
+FClassRegistrationInfo Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary;
+UClass* UFirstPluginUE5BPLibrary::GetPrivateStaticClass()
+{
+	using TClass = UFirstPluginUE5BPLibrary;
+	if (!Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("FirstPluginUE5BPLibrary"),
+			Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary.InnerSingleton,
+			StaticRegisterNativesUFirstPluginUE5BPLibrary,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UFirstPluginUE5BPLibrary_NoRegister()
 {
-	return UFirstPluginUE5BPLibrary::StaticClass();
+	return UFirstPluginUE5BPLibrary::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UFirstPluginUE5BPLibrary_Statics
 {
@@ -95,7 +121,7 @@ struct Z_Construct_UClass_UFirstPluginUE5BPLibrary_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction, "FirstPluginUE5SampleFunction" }, // 677335848
+		{ &Z_Construct_UFunction_UFirstPluginUE5BPLibrary_FirstPluginUE5SampleFunction, "FirstPluginUE5SampleFunction" }, // 2112269540
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -131,24 +157,21 @@ UClass* Z_Construct_UClass_UFirstPluginUE5BPLibrary()
 	}
 	return Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary.OuterSingleton;
 }
-template<> FIRSTPLUGINUE5_API UClass* StaticClass<UFirstPluginUE5BPLibrary>()
-{
-	return UFirstPluginUE5BPLibrary::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UFirstPluginUE5BPLibrary);
 UFirstPluginUE5BPLibrary::~UFirstPluginUE5BPLibrary() {}
-// End Class UFirstPluginUE5BPLibrary
+// ********** End Class UFirstPluginUE5BPLibrary ***************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_lspitzdrev_UE5FirstPlugin_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h__Script_FirstPluginUE5_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFirstPluginUE5BPLibrary, UFirstPluginUE5BPLibrary::StaticClass, TEXT("UFirstPluginUE5BPLibrary"), &Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPluginUE5BPLibrary), 4099152823U) },
+		{ Z_Construct_UClass_UFirstPluginUE5BPLibrary, UFirstPluginUE5BPLibrary::StaticClass, TEXT("UFirstPluginUE5BPLibrary"), &Z_Registration_Info_UClass_UFirstPluginUE5BPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPluginUE5BPLibrary), 3902324537U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h_1915156897(TEXT("/Script/FirstPluginUE5"),
-	Z_CompiledInDeferFile_FID_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_lspitzdrev_UE5FirstPlugin_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h__Script_FirstPluginUE5_1596384528(TEXT("/Script/FirstPluginUE5"),
+	Z_CompiledInDeferFile_FID_Users_lspitzdrev_UE5FirstPlugin_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h__Script_FirstPluginUE5_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_lspitzdrev_UE5FirstPlugin_FirstPlugin_Plugins_FirstPluginUE5_Source_FirstPluginUE5_Public_FirstPluginUE5BPLibrary_h__Script_FirstPluginUE5_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

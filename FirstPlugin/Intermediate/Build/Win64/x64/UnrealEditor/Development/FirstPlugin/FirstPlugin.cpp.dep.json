@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\source\\firstplugin\\firstplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\x64\\firstplugineditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_5.h.pch",
+        "Includes": [
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstplugin\\definitions.firstplugin.h",
+            "c:\\users\\lspitzdrev\\ue5firstplugin\\firstplugin\\source\\firstplugin\\firstplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
