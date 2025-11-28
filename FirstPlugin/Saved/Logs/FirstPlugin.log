@@ -2322,3 +2322,34 @@ Detoured run took 1.4s
 [2025.11.28-10.35.53:822][480]LogSlate: Window 'Save Level As' being destroyed
 [2025.11.28-10.37.09:898][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
 [2025.11.28-10.37.09:901][968]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.038
+[2025.11.28-10.47.36:658][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.11.28-10.47.36:661][185]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.040
+[2025.11.28-10.57.37:156][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.11.28-10.57.37:160][124]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.041
+[2025.11.28-11.07.37:605][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.28-11.07.37:607][925]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.037
+[2025.11.28-11.17.15:004][658]LogDerivedDataCache: C:/Users/lspitzdrev/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.28-11.17.38:369][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.11.28-11.17.38:370][727]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.032
+[2025.11.28-11.27.38:724][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.11.28-11.27.38:726][528]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.035
+[2025.11.28-11.37.39:170][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.11.28-11.37.39:172][329]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.032
+[2025.11.28-11.45.02:808][693]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.11.28-11.47.39:632][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.11.28-11.47.39:635][267]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.040
+[2025.11.28-11.57.40:346][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.11.28-11.57.40:348][ 69]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.040
+[2025.11.28-12.07.40:746][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.28-12.07.40:749][870]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.033
+[2025.11.28-12.17.15:004][593]LogDerivedDataCache: C:/Users/lspitzdrev/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.28-12.17.41:201][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.28-12.17.41:203][671]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.038
+[2025.11.28-12.27.41:616][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.11.28-12.27.41:618][472]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.038
+[2025.11.28-12.37.42:445][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.11.28-12.37.42:448][439]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.038
+[2025.11.28-12.47.42:837][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.28-12.47.42:840][240]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.038
+[2025.11.28-12.57.43:236][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.11.28-12.57.43:238][ 41]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.039
