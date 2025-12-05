@@ -12,6 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\FirstPlugin.sln.DotSettings.user" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -30,9 +31,90 @@
     <Filter Include="Plugins">
       <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Plugins\EditorCommentNode">
+      <UniqueIdentifier>{7689B43C-34AD-33F0-9782-26F0CB20AE97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\EditorCommentNode\Source">
+      <UniqueIdentifier>{3DFF213B-A97A-3CF7-92EC-4942529ACE0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\EditorCommentNode\Source\EditorCommentNode">
+      <UniqueIdentifier>{C534B3C0-4072-3DA8-902F-2ADD8FB49A8C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\EditorCommentNode.Build.cs">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode</Filter>
+    </None>
+    <Filter Include="Plugins\EditorCommentNode\Source\EditorCommentNode\Private">
+      <UniqueIdentifier>{FC5716EE-C838-3D19-94C1-150A960DBE7E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\CommentNode.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\EditorCommentNodeEditorMode.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\EditorCommentNodeEditorModeCommands.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\EditorCommentNodeEditorModeToolkit.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\EditorCommentNodeModule.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools">
+      <UniqueIdentifier>{CAED985B-F17B-35C1-90C2-5AAB8E770B5D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools\EditorCommentNodeInteractiveTool.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools\EditorCommentNodeInteractiveTool.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools\EditorCommentNodeSimpleTool.cpp">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools\EditorCommentNodeSimpleTool.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Private\Tools</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\EditorCommentNode\Source\EditorCommentNode\Public">
+      <UniqueIdentifier>{CCB90969-5B52-3938-B916-F05551042B3F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Public\CommentNode.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Public\EditorCommentNodeEditorMode.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Public\EditorCommentNodeEditorModeCommands.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Public\EditorCommentNodeEditorModeToolkit.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\EditorCommentNode\Source\EditorCommentNode\Public\EditorCommentNodeModule.h">
+      <Filter>Plugins\EditorCommentNode\Source\EditorCommentNode\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\EditorCommentNode\EditorCommentNode.uplugin">
+      <Filter>Plugins\EditorCommentNode</Filter>
+    </None>
+    <Filter Include="Plugins\EditorCommentNode\Resources">
+      <UniqueIdentifier>{E0DAB4C0-F81A-318A-B738-56B908DC21A0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\EditorCommentNode\Resources\Icon128.png">
+      <Filter>Plugins\EditorCommentNode\Resources</Filter>
+    </None>
     <Filter Include="Plugins\FirstPluginUE5">
       <UniqueIdentifier>{06B2158A-1919-3C8B-8DC9-D63FC2C94458}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Plugins\FirstPluginUE5\FirstPluginUE5.uplugin">
+      <Filter>Plugins\FirstPluginUE5</Filter>
+    </None>
+    <Filter Include="Plugins\FirstPluginUE5\Resources">
+      <UniqueIdentifier>{F6808C78-57F4-3B7F-A560-5297D6E2803C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FirstPluginUE5\Resources\Icon128.png">
+      <Filter>Plugins\FirstPluginUE5\Resources</Filter>
+    </None>
     <Filter Include="Plugins\FirstPluginUE5\Source">
       <UniqueIdentifier>{6DECEA7C-9757-33D8-A415-BDE8D65B6E0F}</UniqueIdentifier>
     </Filter>
@@ -60,15 +142,6 @@
     <ClInclude Include="..\..\Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public\FirstPluginUE5BPLibrary.h">
       <Filter>Plugins\FirstPluginUE5\Source\FirstPluginUE5\Public</Filter>
     </ClInclude>
-    <None Include="..\..\Plugins\FirstPluginUE5\FirstPluginUE5.uplugin">
-      <Filter>Plugins\FirstPluginUE5</Filter>
-    </None>
-    <Filter Include="Plugins\FirstPluginUE5\Resources">
-      <UniqueIdentifier>{F6808C78-57F4-3B7F-A560-5297D6E2803C}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\FirstPluginUE5\Resources\Icon128.png">
-      <Filter>Plugins\FirstPluginUE5\Resources</Filter>
-    </None>
     <Filter Include="Source\FirstPlugin">
       <UniqueIdentifier>{DABA0E67-9537-3F61-898E-457F8E161F2E}</UniqueIdentifier>
     </Filter>

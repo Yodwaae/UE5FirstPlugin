@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EditorCommentNode.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/lspitzdrev/UE5FirstPlugin/FirstPlugin/Intermediate/Build/Win64/x64/FirstPluginEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h.obj"
+"C:/Users/lspitzdrev/UE5FirstPlugin/FirstPlugin/Plugins/EditorCommentNode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EditorCommentNode/Module.EditorCommentNode.cpp.obj"
+"C:/Users/lspitzdrev/UE5FirstPlugin/FirstPlugin/Plugins/EditorCommentNode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EditorCommentNode/Default.rc2.res"
+/OUT:"C:/Users/lspitzdrev/UE5FirstPlugin/FirstPlugin/Plugins/EditorCommentNode/Intermediate/Build/Win64/x64/UnrealEditor/Development/EditorCommentNode/UnrealEditor-EditorCommentNode.lib"

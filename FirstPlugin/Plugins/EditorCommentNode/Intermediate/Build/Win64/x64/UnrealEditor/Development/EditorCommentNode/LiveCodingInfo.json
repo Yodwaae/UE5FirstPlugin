@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EditorCommentNode.cpp.obj": [
+			"CommentNode.gen.cpp.obj",
+			"EditorCommentNode.init.gen.cpp.obj",
+			"EditorCommentNodeEditorMode.gen.cpp.obj",
+			"EditorCommentNodeInteractiveTool.gen.cpp.obj",
+			"EditorCommentNodeSimpleTool.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"CommentNode.cpp.obj",
+			"EditorCommentNodeEditorMode.cpp.obj",
+			"EditorCommentNodeEditorModeCommands.cpp.obj",
+			"EditorCommentNodeEditorModeToolkit.cpp.obj",
+			"EditorCommentNodeModule.cpp.obj",
+			"EditorCommentNodeInteractiveTool.cpp.obj",
+			"EditorCommentNodeSimpleTool.cpp.obj"
+		]
+	}
+}

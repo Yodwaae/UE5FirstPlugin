@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\lspitzdrev\\UE5FirstPlugin\\FirstPlugin\\Source\\FirstPlugin\\FirstPlugin.Build.cs",
+		"C:\\Users\\lspitzdrev\\UE5FirstPlugin\\FirstPlugin\\Plugins\\EditorCommentNode\\Source\\EditorCommentNode\\EditorCommentNode.Build.cs",
 		"C:\\Users\\lspitzdrev\\UE5FirstPlugin\\FirstPlugin\\Plugins\\FirstPluginUE5\\Source\\FirstPluginUE5\\FirstPluginUE5.Build.cs",
 		"C:\\Users\\lspitzdrev\\UE5FirstPlugin\\FirstPlugin\\Source\\FirstPlugin.Target.cs",
 		"C:\\Users\\lspitzdrev\\UE5FirstPlugin\\FirstPlugin\\Source\\FirstPluginEditor.Target.cs"

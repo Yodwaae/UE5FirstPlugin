@@ -4210,6 +4210,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/EditorCommentNode/Binaries/Win64/UnrealEditor-EditorCommentNode.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EditorCommentNode/Binaries/Win64/UnrealEditor-EditorCommentNode.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/EditorCommentNode/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/FirstPluginUE5/Binaries/Win64/UnrealEditor-FirstPluginUE5.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -28720,6 +28732,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/EditorCommentNode/EditorCommentNode.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/FirstPluginUE5/FirstPluginUE5.uplugin",
 			"Type": "UFS"
 		}
@@ -28789,6 +28805,7 @@
 		"DeformerGraph",
 		"DumpGPUServices",
 		"EOSShared",
+		"EditorCommentNode",
 		"EditorDataStorage",
 		"EditorDataStorageFeatures",
 		"EditorDebugTools",
