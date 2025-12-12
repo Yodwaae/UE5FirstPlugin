@@ -15,8 +15,12 @@ class EDITORCOMMENTNODE_API UCommentNode : public UK2Node
 	GENERATED_BODY()
 
 public:
+	
+	virtual bool IsNodePure() const override;
+	virtual bool ShouldShowNodeProperties() const override;
+
 	virtual void AllocateDefaultPins() override;
 	virtual FText GetNodeTitle(ENodeTitleType::Type TitleType) const override;
-	static void GetMenuActions(FBlueprintActionDatabaseRegistrar& ActionRegistrar);
+	virtual void GetMenuActions(FBlueprintActionDatabaseRegistrar& ActionRegistrar) const override;
 	virtual FText GetMenuCategory() const override;
 };

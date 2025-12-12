@@ -2,23 +2,31 @@
 
 
 #include "CommentNode.h"
+#include "BlueprintNodeSpawner.h"
+#include "BlueprintActionDatabaseRegistrar.h"
 
-void UCommentNode::AllocateDefaultPins()
+void UCommentNode::AllocateDefaultPins() { Super::AllocateDefaultPins(); }
+
+void UCommentNode::GetMenuActions(FBlueprintActionDatabaseRegistrar& ActionRegistrar) const
 {
-	Super::AllocateDefaultPins();
+	UClass* ActionKey = GetClass();
+
+	if (ActionRegistrar.IsOpenForRegistration(ActionKey)) {
+		UBlueprintNodeSpawner* Spawner = UBlueprintNodeSpawner::Create(GetClass());
+
+		// I can customize the spawner here before registering it
+		//Spawner->CustomizeNodeDelegate = UBlueprintNodeSpawner::FCustomizeNodeDelegate::CreateStatic(/*Customization function call here */);
+		
+		ActionRegistrar.AddBlueprintAction(ActionKey, Spawner);
+	}
 }
 
-FText UCommentNode::GetNodeTitle(ENodeTitleType::Type TitleType) const
-{
-	return Super::GetNodeTitle(TitleType);
-}
+FText UCommentNode::GetNodeTitle(ENodeTitleType::Type TitleType) const { return FText::FromString("Prout Comment"); }
 
-void UCommentNode::GetMenuActions(FBlueprintActionDatabaseRegistrar& ActionRegistrar)
-{
-	//Super::GetMenuActions(ActionRegistrar);
-}
+FText UCommentNode::GetMenuCategory() const { return FText::FromString("Super Utilities"); }
 
-FText UCommentNode::GetMenuCategory() const
-{
-	return Super::GetMenuCategory();
-}
+bool UCommentNode::IsNodePure() const { return true; }
+
+bool UCommentNode::ShouldShowNodeProperties() const { return true; }
+
+
