@@ -5,7 +5,17 @@
 #include "BlueprintNodeSpawner.h"
 #include "BlueprintActionDatabaseRegistrar.h"
 
-void UCommentNode::AllocateDefaultPins() { Super::AllocateDefaultPins(); }
+void UCommentNode::AllocateDefaultPins() {
+
+	// Super
+	Super::AllocateDefaultPins();
+
+	// Text Pin
+	// NOTE It was just to test pin creation as of course I can't plug an editor node into a runtime one
+	//UEdGraphPin* CommentPin = CreatePin(EGPD_Output, UEdGraphSchema_K2::PC_String, NAME_None, TEXT("Baguette"));
+	//CommentPin->DefaultValue = CommentText;
+
+}
 
 void UCommentNode::GetMenuActions(FBlueprintActionDatabaseRegistrar& ActionRegistrar) const
 {

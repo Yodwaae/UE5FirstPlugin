@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeEditorCommentNode_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000040,
-				0x02782AA4,
+				0x366795B3,
 				0x80CE06B7,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeEditorCommentNode_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_EditorCommentNode.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_EditorCommentNode(Z_Construct_UPackage__Script_EditorCommentNode, TEXT("/Script/EditorCommentNode"), Z_Registration_Info_UPackage__Script_EditorCommentNode, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x02782AA4, 0x80CE06B7));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_EditorCommentNode(Z_Construct_UPackage__Script_EditorCommentNode, TEXT("/Script/EditorCommentNode"), Z_Registration_Info_UPackage__Script_EditorCommentNode, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x366795B3, 0x80CE06B7));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
